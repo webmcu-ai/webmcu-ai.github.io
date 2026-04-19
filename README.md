@@ -1,135 +1,67 @@
-# WebMCU-AI Research Lab
+# webmcu-ai
 
-> **Bridging browser-based WebAI and microcontroller TinyML 
-> through transparent, single-file implementations.**
+> **TinyML and WebAI — from a $15 microcontroller to a Chrome browser, no cloud required.**
 
-Welcome to **WebMCU-AI Lab**. Led by a veteran Technology & Robotics 
-educator with over 35 years of experience, this organization focuses on 
-demystifying "Black Box" AI through **Transparent TinyML** and 
-**WebAI** integration — from a $15 microcontroller to a Chrome browser, 
-no cloud required.
+Hi, I'm [Jeremy Ellis](https://github.com/hpssjellis) — a high school Computing, Engineering and Robotics teacher in British Columbia, Canada, with about 35 years in the classroom and a deep interest in making AI genuinely understandable. Not black-box AI. Not cloud-dependent AI. The kind where you can read every weight, every gradient, every line of code, and know exactly what the machine is doing and why.
+
+This organization collects my open-source work at the intersection of **TinyML** (machine learning on microcontrollers) and **WebAI** (machine learning in the browser via TensorFlow.js and the WebSerial API). The hardware is cheap enough for a classroom. The code is single-file and dependency-free. The goal is that a student — or a researcher in a school with unreliable internet — can train and deploy a working vision classifier in under ten minutes without sending any data to the cloud.
 
 ---
 
-## 🔬 Research Focus
+## 📄 Papers (webmcu-ai Series)
 
-We specialize in **On-Device Machine Learning (TinyML)** with 
-browser-based interaction via **WebSerial** and **TensorFlow.js**. 
-Our work spans the full training spectrum:
+**Paper 1 — On-Device Vision Training, Deployment, and Inference on a Thumb-Sized Microcontroller**  
+Complete CNN backpropagation on the ESP32-S3: 1,750 lines of C++, no cloud, no external ML dependencies.  
+→ [on-device-vision-ai](https://github.com/webmcu-ai/on-device-vision-ai) · arXiv April 2026
 
-- **Fully on-device** — complete CNN training and inference on 
-  ESP32-S3 with no external computation
-- **Browser-assisted** — TensorFlow.js trains in Chrome, weights 
-  transfer to the MCU via WebSerial
-- **Hybrid** — on-device fine-tuning of browser-trained weights
+**Paper 2 — WebSerial Vision Training for Microcontrollers**  
+A single-file browser companion to Paper 1: firmware flash, image capture, TensorFlow.js training, weight export, and live activation heatmaps — all from one HTML file over WebSerial.  
+→ [webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web) · arXiv April 2026
 
-All implementations are single-file, dependency-free, and designed 
-to make every step of the ML pipeline visible and modifiable.
-
-### Core Pillars
-
-- 🔍 **Transparent AI** — no black boxes; every weight, gradient, 
-  and activation is accessible and documented
-- 🎓 **Inquiry-Path Pedagogy** — foundational numeracy and logic 
-  before tool-based abstraction; designed for K-12 through 
-  undergraduate research
-- ⚡ **Edge-to-Web Integration** — seamless WebSerial communication 
-  between microcontrollers (ESP32-S3, Arduino Portenta H7) and 
-  browser interfaces
-- 🔋 **Energy Transparency** — direct measurement of complete ML 
-  pipeline energy footprint, including training and inference
+**Paper 3 — On-Device Audio Classification** *(planned)*  
+**Paper 4 — On-Device IMU / Gesture Recognition** *(planned)*
 
 ---
 
-## 📄 Publications
+## 🛠 Repositories
 
-- **"On-Device Vision Training, Deployment, and Inference on a 
-  Thumb-Sized Microcontroller"**  
-  Submitted to WCCI 2026 *(under review)*  
-  Complete CNN backpropagation on ESP32-S3 — 1,750 lines of C++, 
-  no cloud, no external dependencies.
+| Repo | What it does |
+|------|-------------|
+| [on-device-vision-ai](https://github.com/webmcu-ai/on-device-vision-ai) | Complete on-device CNN training and inference on ESP32-S3. Single `.ino` file, MIT licensed. |
+| [webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web) | Browser companion: single `index.html`, no install, WebSerial + TensorFlow.js. |
 
-<!--
-- **"Browser-Assisted On-Device Training via WebSerial"**  
-  In preparation — TorchJS webpage + ESP32 firmware hybrid system.
-  
-- **"On-Device Audio Training on a Thumb-Sized Microcontroller"**  
-  Planned.
-
-- **"On-Device Motion Training on a Thumb-Sized Microcontroller"**  
-  Planned.
--->
+More repos will appear here as Papers 3 and 4 progress.
 
 ---
 
-## 🛠 Active Repositories
+## 🔧 Hardware
 
-| Repo | Description | Status |
-|------|-------------|--------|
+The primary platform is the **Seeed Studio XIAO ESP32-S3 Sense**, available as:
+- the bare ESP32-S3 chip (~$8 USD)
+- the XIAO ESP32-S3 Sense board with OV2640 camera (~$15 USD)
+- the full XIAO ML Kit with OLED display and IMU (~$39 USD)
 
-
-
-<!--
-| [on-device-vision-training](.) | Complete CNN train/infer on ESP32-S3. WCCI 2026 paper code. | 🟢 Active |
-| [browser-edge-vision-training](.) | TorchJS webpage + WebSerial firmware. Paper 2 code. | 🟡 In Progress |
--->
-<!--
-| [on-device-audio-training](.)  | Sound classification on MCU. | 🔵 Planned |
-| [on-device-motion-training](.) | IMU/gesture classification on MCU. | 🔵 Planned |
-| [on-device-sensor-fusion](.)   | Multi-modal sensor fusion on MCU. | 🔵 Planned |
--->
+All three run the same firmware. The OLED and IMU degrade gracefully if the expansion board is absent. The price point is intentional — the whole system should fit in a classroom budget.
 
 ---
 
-## 📋 Coding Standards
+## 💡 What this is really about
 
-All lab repositories follow these standards for clarity and 
-reproducibility:
+Most AI education either stays at the toy-demo level (drag and drop, no understanding of what's happening) or jumps straight to Python and cloud APIs where the pipeline is opaque. This project sits in the middle: real backpropagation, real Adam optimization, real weights you can read out and inspect — but running on hardware cheap enough that every student in a class can have one.
 
-- **Vanilla Everything** — minimize dependencies; prioritize 
-  single-file HTML and vanilla JS with inline CSS
-- **Naming Convention** — descriptive `camelCase` with a `my` 
-  prefix for all internal functions  
-  (e.g., `async function myTrainModel()`)
-- **Logic First** — `async/await` over `.then()` promises for 
-  readable, linear control flow
-- **Single-File Firmware** — complete Arduino sketches in one 
-  `.ino` file; every component visible without navigating a 
-  library tree
-- **MIT License** — all code open source and freely reusable
+The WebSerial browser interface extends this further: train at browser speed (~1 min per run versus ~9 min on-device), then deploy to the microcontroller over USB with no drivers, no Python, no cloud account.
 
----
-
-## 🔧 Hardware Platforms
-
-- **Seeedstudio XIAO ESP32-S3 Sense** — primary platform  
-  ($15-40 USD, 8MB PSRAM, OV2640 camera, touch, OLED)
-- **Arduino Portenta H7** — secondary platform  
-  *(ports in progress)*
-
-<!--
-- **XIAO ESP32-S3 + Microphone** — audio work  
-- **XIAO ESP32-S3 + IMU** — motion work
--->
-
----
-
-## 🤝 Community & Collaboration
-
-We collaborate with industry and academic researchers to bring 
-Edge AI into the K-12 and hobbyist ecosystem.
-
-**Member:** TinyML4D / MLSys Community
-
-Contributions, ports to new hardware, and curriculum adaptations 
-are welcome. See individual repository CONTRIBUTING.md files.
+Both the firmware and the browser page are single-file by design. That means you can read the entire source, modify it, and ask an LLM to help you adapt it to your own sensors and tasks. The whole thing fits in a context window.
 
 ---
 
 ## 📬 Contact
 
-- GitHub: [@hpssjellis](https://github.com/hpssjellis)
+- Personal GitHub: [@hpssjellis](https://github.com/hpssjellis)
 - LinkedIn: [Jeremy Ellis](https://www.linkedin.com/in/jeremy-ellis-4237a9bb/)
+- TinyML4D community: [tinyml.seas.harvard.edu/team](https://tinyml.seas.harvard.edu/team)
+
+Contributions, hardware ports, and curriculum adaptations are welcome. MIT license throughout.
 
 ---
 

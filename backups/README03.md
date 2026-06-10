@@ -27,17 +27,15 @@ Most important is the actively being developed webpage that conncets with the de
 
 ## 🛠 Repositories
 
-#### All use the XIAO ESP32-S3 for serial monitor only or use the [$15-40 USD xiaoML kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) for full on-device training and inference.
 
-| Repo | What it does |
-|------|-------------|
-| [on-device-vision-ai](https://github.com/webmcu-ai/on-device-vision-ai) | Complete on-device CNN training and inference. Uses a single `.ino` file, MIT licensed. |
-| [webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web) | Browser companion: single `index.html`, no install, WebSerial + TensorFlow.js. Working demo webpage at [https://webmcu-ai.github.io/webmcu-vision-web/index.html](https://webmcu-ai.github.io/webmcu-vision-web/index.html)|
-|[on-device-fomo](https://github.com/webmcu-ai/on-device-fomo)|on-device Vision FOMO (Faster Objects More Objects) Object detection with x,y centroid location capable of multiple detections.  |
-|[on-device-regression](https://github.com/webmcu-ai/on-device-regression) | on-device Vision Regression (each trained object class is an integer number). Regression allows distance or size measurement based on how big or small a single object is from the camera. Now has an extrapolation linear equation. |
-| [on-device-vision-anomaly](https://github.com/webmcu-ai/on-device-vision-anomaly)| on-device vision anomaly |
-| [on-device-motion](https://github.com/webmcu-ai/on-device-motion)| on-device motion acceleration in x, y, z using the IMU. Collects 3x40 samples of x,y,z accelereration data, but could be any combination of sensor data up to 120 data points, so 2x60, 5x24 etc. Basic start of a sensor fusion model.|
-| [on-device-sound](https://github.com/webmcu-ai/on-device-sound) | on-device sound machine learning model using FFT. Install the firmware on the xiao esp32s3 sense which has a microphone |
+## HElper websites
+
+All on-device firmware for offline flashing, []()
+
+For offline LLM using Gemma4 []()
+
+
+#### All use the XIAO ESP32-S3 for serial monitor only or use the [$15-40 USD xiaoML kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) for full on-device training and inference.
 
 
 

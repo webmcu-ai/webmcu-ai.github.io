@@ -25,17 +25,17 @@ Most important is the actively being developed webpage that conncets with the de
 
 ---
 
-## 🛠 Repositories
+## Resources
 
 
-## HElper websites
 
 
-For offline LLM using Gemma4 []()
 
-The Maker 100 Leaders Robotics []()
+For offline LLM using Gemma4 PWA [https://github.com/webmcu-ai/local-gemma4-pwa](https://github.com/webmcu-ai/local-gemma4-pwa)
 
-The maker100 Curriculum []()
+The Maker 100 Leaders Robotics [https://github.com/hpssjellis/maker100-leaders-robotics](https://github.com/hpssjellis/maker100-leaders-robotics)
+
+The maker100 Curriculum [https://github.com/hpssjellis/maker100-curriculum](https://github.com/hpssjellis/maker100-curriculum)
 
 All on-device firmware for offline flashing [https://github.com/webmcu-ai/download-for-offline-webmcu-ai](https://github.com/webmcu-ai/download-for-offline-webmcu-ai) for when using any of the [web-PWA](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) to flash all the code without the Arduino IDE or PlatformIO.
 

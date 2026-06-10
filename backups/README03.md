@@ -44,14 +44,14 @@ Most important is the actively being developed webpage that conncets with the de
 
 ## Complete webMCU-AI table
 
-| ML | firmware | github | web-firmware | web-github | web-html-online | web-pwa-offline |
+| ML | on-device firmware | on-device github | web-firmware | web-github | web-html-online | web-pwa-offline |
 |:---|:---|:---|:---|:---|:---|:---|
-| Vision Classification | |[on-device-vision-ai](https://github.com/webmcu-ai/on-device-vision-ai) | | [webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web) | [https://webmcu-ai.github.io/webmcu-vision-web/index.html](https://webmcu-ai.github.io/webmcu-vision-web/index.html) | |
-| Vision FOMO object x, y detection | | [on-device-fomo](https://github.com/webmcu-ai/on-device-fomo) | | | | |
-| Vision Regression | | [on-device-regression](https://github.com/webmcu-ai/on-device-regression) | | | | |
-| Vision Anomaly | | [on-device-vision-anomaly](https://github.com/webmcu-ai/on-device-vision-anomaly) | | | | |
-| Motion X, Y, Z Acceleration | |[on-device-motion](https://github.com/webmcu-ai/on-device-motion) | | | | |
-| Sound / Wake Word(s) Detection | |[on-device-sound](https://github.com/webmcu-ai/on-device-sound) | | | | |
+| Vision Classification | [on-device firmware](https://github.com/webmcu-ai/on-device-vision-ai/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-vision-ai) | | [web-github](https://github.com/webmcu-ai/webmcu-vision-web) | [web-html-online](https://webmcu-ai.github.io/webmcu-vision-web/index.html) | [web-pwa-offline](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) |
+| Vision FOMO object x, y detection | [on-device firmware](https://github.com/webmcu-ai/on-device-fomo/blob/main/firmware.ino) | [on-device github](https://github.com/webmcu-ai/on-device-fomo) | | | | |
+| Vision Regression | [on-device firmware](https://github.com/webmcu-ai/on-device-regression/blob/main/firmware.ino) | [on-device github](https://github.com/webmcu-ai/on-device-regression) | | | | |
+| Vision Anomaly | [on-device firmware](https://github.com/webmcu-ai/on-device-vision-anomaly/blob/main/firmware.ino) | [on-device github](https://github.com/webmcu-ai/on-device-vision-anomaly) | | | | |
+| Motion X, Y, Z Acceleration | [on-device firmware](https://github.com/webmcu-ai/on-device-motion/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-motion) | | | | |
+| Sound / Wake Word(s) Detection | [on-device firmware](https://github.com/webmcu-ai/on-device-sound/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-sound) | | | | |
 ---
 
 ## 🔧 Hardware

@@ -30,9 +30,14 @@ Most important is the actively being developed webpage that conncets with the de
 
 ## HElper websites
 
-All on-device firmware for offline flashing, []()
 
 For offline LLM using Gemma4 []()
+
+The Maker 100 Leaders Robotics []()
+
+The maker100 Curriculum []()
+
+All on-device firmware for offline flashing [https://github.com/webmcu-ai/download-for-offline-webmcu-ai](https://github.com/webmcu-ai/download-for-offline-webmcu-ai) for when using any of the [web-PWA](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) to flash all the code without the Arduino IDE or PlatformIO.
 
 
 #### All use the XIAO ESP32-S3 for serial monitor only or use the [$15-40 USD xiaoML kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) for full on-device training and inference.

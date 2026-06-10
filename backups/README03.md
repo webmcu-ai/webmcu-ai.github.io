@@ -40,6 +40,18 @@ Most important is the actively being developed webpage that conncets with the de
 | [on-device-sound](https://github.com/webmcu-ai/on-device-sound) | on-device sound machine learning model using FFT. Install the firmware on the xiao esp32s3 sense which has a microphone |
 
 
+
+
+## Complete webMCU-AI table
+
+| ML | firmware | github | web-firmware | web-github | web-html-online | web-pwa-offline |
+|:---|:---|:---|:---|:---|:---|:---|
+| Vision Classification | |[on-device-vision-ai](https://github.com/webmcu-ai/on-device-vision-ai) | | [webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web) | [https://webmcu-ai.github.io/webmcu-vision-web/index.html](https://webmcu-ai.github.io/webmcu-vision-web/index.html) | |
+| Vision FOMO object x, y detection | | [on-device-fomo](https://github.com/webmcu-ai/on-device-fomo) | | | | |
+| Vision Regression | | [on-device-regression](https://github.com/webmcu-ai/on-device-regression) | | | | |
+| Vision Anomaly | | [on-device-vision-anomaly](https://github.com/webmcu-ai/on-device-vision-anomaly) | | | | |
+| Motion X, Y, Z Acceleration | |[on-device-motion](https://github.com/webmcu-ai/on-device-motion) | | | | |
+| Sound / Wake Word(s) Detection | |[on-device-sound](https://github.com/webmcu-ai/on-device-sound) | | | | |
 ---
 
 ## 🔧 Hardware
@@ -50,6 +62,10 @@ The primary platform is the **Seeed Studio XIAO ESP32-S3 Sense**, available as:
 - the full [XIAO ML Kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) with OLED display and IMU ($38.90 USD with cables, sd card etc, $22 USD just for the boards, runs everything)
 
 All three run the same firmware. The OLED and IMU degrade gracefully if the expansion board is absent. The price point is intentional — the whole system should fit in a classroom budget.
+
+<img width="800"  alt="image02-xiao" src="https://github.com/user-attachments/assets/96d9cd35-9808-4ca8-aab4-f28a21e5fa42" />
+
+
 
 ---
 

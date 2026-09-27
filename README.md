@@ -79,9 +79,9 @@ any of the [web-PWA](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) t
 Latest BLE work with the XIAO esp32s3 and the nan033BleSense and your cell phone motion sensor. 
 
 
-## Proof of WebBLE
+## Proof of on-device WebBLE
 | ML | on-device firmware | on-device github | webBLE |
-|:---|:---|:---|
+|:---|:---|:---|:---|
 |BLE Sensor Fusion XIAO and ANano33Ble Sense|  | [https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33) |  | 
 
 

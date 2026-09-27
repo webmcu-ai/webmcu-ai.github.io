@@ -54,7 +54,7 @@ any of the [web-PWA](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) t
 
 
 
-# Flagship WebSerail and on-Device Vision
+# Flagship WebSerial and on-Device Vision
 | ML | web-firmware | web-github | web-html-online | web-pwa-offline |
 |:---|:---|:---|:---|:---|
 | Web Vision Classification  | [web-firmware](https://github.com/webmcu-ai/webmcu-vision-web/blob/main/firmware.ino) | [web-github](https://github.com/webmcu-ai/webmcu-vision-web) | [web-html-online](https://webmcu-ai.github.io/webmcu-vision-web/index.html) | [web-pwa-offline](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) |

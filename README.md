@@ -83,8 +83,8 @@ any of the [web-PWA](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) t
 Latest BLE work with the XIAO esp32s3 and the nan033BleSense and your cell phone motion sensor.   
 
 | ML | on-device firmware Xiao ML Kit | on-device firmware Nano33BleSense | on-device github | webBLE |
-|:---|:---|:---|:---|:---|:---|
-|BLE Sensor Fusion XIAO and Nano33BleSense| [Firmware Esp32S3](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/esp32-v15.ino) | [firmware-nano33bleSense](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/nano33-v15.ino)  | [https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33) |  | 
+|:---|:---|:---|:---|:---|
+|BLE Sensor Fusion XIAO and Nano33BleSense| [Firmware Esp32S3](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/esp32-v15.ino) | [firmware-nano33bleSense](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/nano33-v15.ino)  | [https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33) | [index.html here](https://webmcu-ai.github.io/on-device-ble-sensor-fusion-nano33/index.html) | 
 
 
 ## Spiking Neural Networks SNN

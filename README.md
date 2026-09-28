@@ -1,4 +1,4 @@
-# webmcu-ai
+g# webmcu-ai
 
 > **TinyML and WebAI — from a $15 microcontroller to a Chrome browser, no cloud required.**
 
@@ -55,6 +55,7 @@ any of the [web-PWA](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) t
 
 
 # Flagship WebSerial and on-Device Vision
+
 | ML | web-firmware | web-github | web-html-online | web-pwa-offline |
 |:---|:---|:---|:---|:---|
 | Web Vision Classification  | [web-firmware](https://github.com/webmcu-ai/webmcu-vision-web/blob/main/firmware.ino) | [web-github](https://github.com/webmcu-ai/webmcu-vision-web) | [web-html-online](https://webmcu-ai.github.io/webmcu-vision-web/index.html) | [web-pwa-offline](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) |

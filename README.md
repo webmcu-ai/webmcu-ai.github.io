@@ -99,7 +99,7 @@ Latest BLE work with the XIAO esp32s3 and the nan033BleSense and your cell phone
 |:---|:---|:---|:---|
 | SNN and ANN Motion | [firmware.ino](https://github.com/webmcu-ai/on-device-motion-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/on-device-motion-snn) | [motion SNN index.html here](https://webmcu-ai.github.io/web-vision-snn/) |
 | SNN and ANN Vision| [firmware.ino](https://github.com/webmcu-ai/web-vision-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/web-vision-snn) | [Vision SNN index.html here](https://webmcu-ai.github.io/web-vision-snn/) |
-| SNN and ANN Video | [firmware.ino](https://github.com/webmcu-ai/web-video-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/web-video-snn) | [Video SNN index.html here](https://webmcu-ai.github.io/web-video-snn/index.html)|
+| SNN and ANN Video (Multi-image) | [firmware.ino](https://github.com/webmcu-ai/web-video-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/web-video-snn) | [Video SNN index.html here](https://webmcu-ai.github.io/web-video-snn/index.html)|
 
 <br>
 <hr>

@@ -88,7 +88,7 @@ Latest BLE work with the XIAO esp32s3 and the nan033BleSense and your cell phone
 
 | ML | on-device firmware Xiao ML Kit | on-device firmware Nano33BleSense | on-device github | webBLE |
 |:---|:---|:---|:---|:---|
-|BLE Sensor Fusion XIAO and Nano33BleSense| [firmware-XIAO-ML-Kit](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/esp32-v15.ino) | [firmware-nano33bleSense](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/nano33-v15.ino)  | [https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33) | [index.html here](https://webmcu-ai.github.io/on-device-ble-sensor-fusion-nano33/index.html) | 
+|BLE Sensor Fusion XIAO and Nano33BleSense| [firmware-XIAO-ML-Kit](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/esp32-v15.ino) | [firmware-nano33bleSense](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/nano33-v15.ino)  | [https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33) | [Web Demo](https://webmcu-ai.github.io/on-device-ble-sensor-fusion-nano33/index.html) | 
 
 <br>
 <hr>
@@ -97,9 +97,9 @@ Latest BLE work with the XIAO esp32s3 and the nan033BleSense and your cell phone
 
 | ML | on-device firmware | on-device github | web Training Assist |
 |:---|:---|:---|:---|
-| SNN and ANN Motion | [firmware.ino](https://github.com/webmcu-ai/on-device-motion-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/on-device-motion-snn) | [motion SNN index.html here](https://webmcu-ai.github.io/web-vision-snn/) |
-| SNN and ANN Vision| [firmware.ino](https://github.com/webmcu-ai/web-vision-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/web-vision-snn) | [Vision SNN index.html here](https://webmcu-ai.github.io/web-vision-snn/) |
-| SNN and ANN Video (Multi-image) | [firmware.ino](https://github.com/webmcu-ai/web-video-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/web-video-snn) | [Video SNN index.html here](https://webmcu-ai.github.io/web-video-snn/index.html)|
+| SNN and ANN Motion | [firmware.ino](https://github.com/webmcu-ai/on-device-motion-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/on-device-motion-snn) | [motion SNN Web Demo](https://webmcu-ai.github.io/web-vision-snn/) |
+| SNN and ANN Vision| [firmware.ino](https://github.com/webmcu-ai/web-vision-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/web-vision-snn) | [Vision SNN Web Demo](https://webmcu-ai.github.io/web-vision-snn/) |
+| SNN and ANN Video (Multi-image) | [firmware.ino](https://github.com/webmcu-ai/web-video-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/web-video-snn) | [Video SNN Web Demo](https://webmcu-ai.github.io/web-video-snn/index.html)|
 
 <br>
 <hr>

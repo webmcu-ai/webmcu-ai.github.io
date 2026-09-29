@@ -25,33 +25,7 @@ Most important is the actively being developed webpage that conncets with the de
 
 ---
 
-## Resources
 
-
-
-For offline LLM using Gemma4:E2B PWA, first time 2 GB install, [https://webmcu-ai.github.io/local-gemma4-pwa/index.html](https://webmcu-ai.github.io/local-gemma4-pwa/index.html)
-
-For offline LLM using Gemma4:12B PWA, first time 7 GB install, must also install [ollama.com](https://ollama.com/) and run this command for windows 
-``` setx OLLAMA_ORIGINS "https://webmcu-ai.github.io"  ```
-[https://webmcu-ai.github.io/ollama-gemma4-12b-pwa/index.html](https://webmcu-ai.github.io/ollama-gemma4-12b-pwa/index.html)
-
-The Maker 100 Leaders Robotics [https://github.com/hpssjellis/maker100-leaders-robotics](https://github.com/hpssjellis/maker100-leaders-robotics)
-
-The maker100 Curriculum [https://github.com/hpssjellis/maker100-curriculum](https://github.com/hpssjellis/maker100-curriculum)
-
-All on-device firmware for offline flashing [https://github.com/webmcu-ai/download-for-offline-webmcu-ai](https://github.com/webmcu-ai/download-for-offline-webmcu-ai) for when using 
-any of the [web-PWA](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) to flash all the code without the Arduino IDE or PlatformIO.
-
-
-#### All use the XIAO ESP32-S3 for serial monitor only or use the [$15-40 USD xiaoML kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) for full on-device training and inference.
-
-
-
-
-
-
-<br>
-<hr>
 
 
 
@@ -109,7 +83,33 @@ Latest BLE work with the XIAO esp32s3 and the nan033BleSense and your cell phone
 [https://github.com/hpssjellis/neuro-ml](https://github.com/hpssjellis/neuro-ml)
 
 
+## Resources
 
+
+
+For offline LLM using Gemma4:E2B PWA, first time 2 GB install, [https://webmcu-ai.github.io/local-gemma4-pwa/index.html](https://webmcu-ai.github.io/local-gemma4-pwa/index.html)
+
+For offline LLM using Gemma4:12B PWA, first time 7 GB install, must also install [ollama.com](https://ollama.com/) and run this command for windows 
+``` setx OLLAMA_ORIGINS "https://webmcu-ai.github.io"  ```
+[https://webmcu-ai.github.io/ollama-gemma4-12b-pwa/index.html](https://webmcu-ai.github.io/ollama-gemma4-12b-pwa/index.html)
+
+The Maker 100 Leaders Robotics [https://github.com/hpssjellis/maker100-leaders-robotics](https://github.com/hpssjellis/maker100-leaders-robotics)
+
+The maker100 Curriculum [https://github.com/hpssjellis/maker100-curriculum](https://github.com/hpssjellis/maker100-curriculum)
+
+All on-device firmware for offline flashing [https://github.com/webmcu-ai/download-for-offline-webmcu-ai](https://github.com/webmcu-ai/download-for-offline-webmcu-ai) for when using 
+any of the [web-PWA](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) to flash all the code without the Arduino IDE or PlatformIO.
+
+
+#### All use the XIAO ESP32-S3 for serial monitor only or use the [$15-40 USD xiaoML kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) for full on-device training and inference.
+
+
+
+
+
+
+<br>
+<hr>
 
 ---
 

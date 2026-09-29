@@ -18,10 +18,7 @@ Github → [on-device-vision-ai](https://github.com/webmcu-ai/on-device-vision-a
 A single-file browser companion to Paper 1: index.html, firmware flash, firmware.ino, image capture, TensorFlow.js training, weight export, and live activation heatmaps — all from one HTML file over WebSerial.  
 Github → [webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web) ,  Paper 2 → [arXiv April 2604.22834](https://arxiv.org/abs/2604.22834) 
 
-Most important is the actively being developed webpage that conncets with the device at [webmcu-vision-web/index.htm](https://webmcu-ai.github.io/webmcu-vision-web/index.htm)
 
-**Paper 3 — On-Device Audio Classification** *(planned)*  
-**Paper 4 — On-Device IMU / Gesture Recognition** *(planned)*
 
 ---
 

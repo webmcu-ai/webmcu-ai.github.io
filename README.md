@@ -57,10 +57,10 @@ any of the [web-PWA](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) t
 
 # Flagship WebSerial and on-Device Vision
 
-| ML | web-firmware | web-github | web-html-online | web-pwa-offline | Paper |
+| ML | Firmware | Github | web-html-online | web-pwa-offline | Paper |
 |:---|:---|:---|:---|:---|:---|
-| Web and On Device webSerial Vision Classification  | [web-firmware](https://github.com/webmcu-ai/webmcu-vision-web/blob/main/firmware.ino) | [web-github](https://github.com/webmcu-ai/webmcu-vision-web) | [web-html-online](https://webmcu-ai.github.io/webmcu-vision-web/index.html) | [web-pwa-offline](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) | Paper 2 [arXiv April 2604.22834](https://arxiv.org/abs/2604.22834) |
-| On-Device Vision Classification | [on-device firmware](https://github.com/webmcu-ai/on-device-vision-ai/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-vision-ai) | | | Paper 1 [arXiv April 2604.23012](https://arxiv.org/abs/2604.23012) |
+| Web and On Device webSerial Vision Classification  | [web-firmware](https://github.com/webmcu-ai/webmcu-vision-web/blob/main/firmware.ino) | [web-github](https://github.com/webmcu-ai/webmcu-vision-web) | [web-html-online](https://webmcu-ai.github.io/webmcu-vision-web/index.html) | [web-pwa-offline](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) | Paper 2 <br>[arXiv April 2604.22834](https://arxiv.org/abs/2604.22834) |
+| On-Device Vision Classification | [on-device firmware](https://github.com/webmcu-ai/on-device-vision-ai/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-vision-ai) | | | Paper 1 <br>[arXiv April 2604.23012](https://arxiv.org/abs/2604.23012) |
 <br>
 <hr>
 

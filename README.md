@@ -1,6 +1,6 @@
 # webmcu-ai
 
-> **TinyML and WebAI — from a $15 microcontroller to a Chrome browser, no cloud required.**
+**TinyML and WebAI — from a $15 microcontroller to a Chrome browser, no cloud required.**
 
 Hi, I'm [Jeremy Ellis](https://github.com/hpssjellis) — a high school Computing, Machine Learning and Robotics teacher in British Columbia, Canada, with about 35 years in the classroom and a deep interest in making AI genuinely understandable. Not black-box AI. Not cloud-dependent AI. The kind where you can read every weight, every gradient, every line of code, and know exactly what the machine is doing and why.
 
@@ -36,7 +36,9 @@ Most important is the actively being developed webpage that conncets with the de
 | Web and On Device webSerial Vision Classification | [web-firmware](https://github.com/webmcu-ai/webmcu-vision-web/blob/main/firmware.ino) | [web-github](https://github.com/webmcu-ai/webmcu-vision-web) | [web-html-online](https://webmcu-ai.github.io/webmcu-vision-web/index.html) | [web-pwa-offline](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) |[arXiv April 2604.22834](https://arxiv.org/abs/2604.22834) |
 | On-Device Vision Classification | [on-device firmware](https://github.com/webmcu-ai/on-device-vision-ai/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-vision-ai) | | | [arXiv April 2604.23012](https://arxiv.org/abs/2604.23012) |
 
-<br><hr>
+
+
+---
 
 
 # Bread and Butter. All the Main on-device TinyML 
@@ -55,8 +57,9 @@ Soon with supporting webpages for sd card data transfer
 | Vision Sound Dual Core | [on-device dual core vision sound firmware](https://github.com/webmcu-ai/on-device-vision-sound/blob/main/firmware.ino) |[on-device dual core vision sound github](https://github.com/webmcu-ai/on-device-vision-sound) | |
 
 
-<br>
-<hr>
+
+---
+
 
 ## Proof of on-device WebBLE  
 Latest BLE work with the XIAO esp32s3 and the nan033BleSense and your cell phone motion sensor.   
@@ -65,8 +68,9 @@ Latest BLE work with the XIAO esp32s3 and the nan033BleSense and your cell phone
 |:---|:---|:---|:---|:---|
 |BLE Sensor Fusion XIAO and Nano33BleSense| [firmware-XIAO-ML-Kit](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/esp32-v15.ino) | [firmware-nano33bleSense](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/nano33-v15.ino)  | [https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33) | [Web Demo](https://webmcu-ai.github.io/on-device-ble-sensor-fusion-nano33/index.html) | 
 
-<br>
-<hr>
+
+---
+
 
 ## Spiking Neural Networks SNN
 
@@ -76,12 +80,15 @@ Latest BLE work with the XIAO esp32s3 and the nan033BleSense and your cell phone
 | SNN and ANN Vision| [firmware.ino](https://github.com/webmcu-ai/web-vision-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/web-vision-snn) | [Vision SNN Web Demo](https://webmcu-ai.github.io/web-vision-snn/) |
 | SNN and ANN Video (Multi-image) | [firmware.ino](https://github.com/webmcu-ai/web-video-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/web-video-snn) | [Video SNN Web Demo](https://webmcu-ai.github.io/web-video-snn/index.html)|
 
-<br>
-<hr>
+
+---
+
 
 ## BioComputing Demo's  
 
 [https://github.com/hpssjellis/neuro-ml](https://github.com/hpssjellis/neuro-ml)
+
+---
 
 
 ## Resources
@@ -109,8 +116,7 @@ any of the [web-PWA](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) t
 
 
 
-<br>
-<hr>
+
 
 ---
 

@@ -47,7 +47,7 @@ Soon with supporting webpages for sd card data transfer
 
 | ML | on-device firmware | on-device github | Simple Web Training (Coming Soon) |
 |:---|:---|:---|:---|
-| Vision Classification | [firmware](https://github.com/webmcu-ai/on-device-vision-and-web/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-vision-and-web) | |
+| Vision Classification | [firmware](https://github.com/webmcu-ai/on-device-vision-and-web/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-vision-and-web) | [Testing Webpage](https://webmcu-ai.github.io/on-device-vision-and-web/) |
 | Vision FOMO object x, y detection | [firmware](https://github.com/webmcu-ai/on-device-fomo/blob/main/firmware.ino) | [github](https://github.com/webmcu-ai/on-device-fomo) | |
 | Vision Regression | [firmware](https://github.com/webmcu-ai/on-device-regression/blob/main/firmware.ino) | [github](https://github.com/webmcu-ai/on-device-regression) | |
 | Vision Anomaly | [firmware](https://github.com/webmcu-ai/on-device-vision-anomaly/blob/main/firmware.ino) | [github](https://github.com/webmcu-ai/on-device-vision-anomaly) | |

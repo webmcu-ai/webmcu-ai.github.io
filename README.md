@@ -33,13 +33,14 @@ Most important is the actively being developed webpage that conncets with the de
 
 | ML | Firmware | Github | web-html-online | web-pwa-offline | Paper |
 |:---|:---|:---|:---|:---|:---|
-| Web and On Device webSerial Vision Classification | [web-firmware](https://github.com/webmcu-ai/webmcu-vision-web/blob/main/firmware.ino) | [web-github](https://github.com/webmcu-ai/webmcu-vision-web) | [web-html-online](https://webmcu-ai.github.io/webmcu-vision-web/index.html) | [web-pwa-offline](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) | Paper 2 <br>[arXiv April 2604.22834](https://arxiv.org/abs/2604.22834) |
-| On-Device Vision Classification | [on-device firmware](https://github.com/webmcu-ai/on-device-vision-ai/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-vision-ai) | . | . | Paper 1 <br>[arXiv April 2604.23012](https://arxiv.org/abs/2604.23012) |
+| Web and On Device webSerial Vision Classification | [web-firmware](https://github.com/webmcu-ai/webmcu-vision-web/blob/main/firmware.ino) | [web-github](https://github.com/webmcu-ai/webmcu-vision-web) | [web-html-online](https://webmcu-ai.github.io/webmcu-vision-web/index.html) | [web-pwa-offline](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) |[arXiv April 2604.22834](https://arxiv.org/abs/2604.22834) |
+| On-Device Vision Classification | [on-device firmware](https://github.com/webmcu-ai/on-device-vision-ai/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-vision-ai) | | | [arXiv April 2604.23012](https://arxiv.org/abs/2604.23012) |
 
 <br><hr>
 
 
-# Bread and Butter. All the Main on-device TinyML  
+# Bread and Butter. All the Main on-device TinyML 
+Soon with supporting webpages for sd card data transfer
 ## Complete webMCU-AI table
 
 | ML | on-device firmware | on-device github | Simple Web Training (Coming Soon) |

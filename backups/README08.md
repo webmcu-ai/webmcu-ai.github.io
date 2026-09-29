@@ -1,4 +1,4 @@
-g# webmcu-ai
+# webmcu-ai
 
 > **TinyML and WebAI — from a $15 microcontroller to a Chrome browser, no cloud required.**
 

@@ -62,7 +62,7 @@ Soon with supporting webpages for sd card data transfer
 Latest bluetooth BLE work with the XIAO esp32s3 and the nano33BleSense and your cell phone motion sensor.   
 
 | ML | on-device firmware Xiao ML Kit | on-device firmware Nano33BleSense | on-device github | index.html | WebBLE Live Demo |
-|:---|:---|:---|:---|:---|
+|:---|:---|:---|:---|:---|:---|
 |BLE Sensor Fusion XIAO and Nano33BleSense| [firmware-XIAO-ML-Kit](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/esp32-v15.ino) | [firmware-nano33bleSense](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/nano33-v15.ino)  | [https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33) | [index.html](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/index.html) | [WebBLE Live Demo](https://webmcu-ai.github.io/on-device-ble-sensor-fusion-nano33/index.html) | 
 
 

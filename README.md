@@ -74,8 +74,8 @@ Latest bluetooth BLE work with the XIAO esp32s3 and the nano33BleSense and your 
 | ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
 |:---|:---|:---|:---|:---|
 | SNN and ANN Motion | [firmware.ino](https://github.com/webmcu-ai/on-device-motion-snn/blob/main/firmware.ino) | [github](https://github.com/webmcu-ai/on-device-motion-snn) | [index.html](https://github.com/webmcu-ai/on-device-motion-snn/blob/main/index.html) | [motion SNN Live Demo](https://webmcu-ai.github.io/web-vision-snn/) |
-| SNN and ANN Vision| [firmware.ino](https://github.com/webmcu-ai/web-vision-snn/blob/main/firmware.ino) | [github](https://github.com/webmcu-ai/web-vision-snn) | [index.html](https://github.com/webmcu-ai/web-vision-snn/blob/main/index.html) |  [Vision SNN Live Demo](https://webmcu-ai.github.io/web-vision-snn/) |
-| SNN and ANN Video (Multi-image) | [firmware.ino](https://github.com/webmcu-ai/web-video-snn/blob/main/firmware.ino) | [github](https://github.com/webmcu-ai/web-video-snn) | [index.html](https://github.com/webmcu-ai/web-video-snn/blob/main/index.html) |  [Video SNN Live Demo](https://webmcu-ai.github.io/web-video-snn/index.html)|
+| SNN and ANN Vision| [firmware.ino](https://github.com/webmcu-ai/web-vision-snn/blob/main/firmware.ino) | [github](https://github.com/webmcu-ai/web-vision-snn) | [index.html](https://github.com/webmcu-ai/web-vision-snn/blob/main/index.html) |  [vision SNN Live Demo](https://webmcu-ai.github.io/web-vision-snn/) |
+| SNN and ANN Video (Multi-image) | [firmware.ino](https://github.com/webmcu-ai/web-video-snn/blob/main/firmware.ino) | [github](https://github.com/webmcu-ai/web-video-snn) | [index.html](https://github.com/webmcu-ai/web-video-snn/blob/main/index.html) |  [video SNN Live Demo](https://webmcu-ai.github.io/web-video-snn/index.html)|
 
 
 ---

@@ -50,7 +50,7 @@ Soon with supporting webpages for sd card data transfer
 | Vision Anomaly | [firmware](https://github.com/webmcu-ai/on-device-vision-anomaly/blob/main/firmware.ino) | [github](https://github.com/webmcu-ai/on-device-vision-anomaly) | [index.html](https://github.com/webmcu-ai/on-device-vision-anomaly/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/on-device-vision-anomaly/index.html) |
 | Sound / Wake Word(s) Detection | [firmware](https://github.com/webmcu-ai/on-device-sound/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-sound) | [index.html](https://github.com/webmcu-ai/on-device-sound/blob/main/index.html)| [live demo](https://webmcu-ai.github.io/on-device-sound/index.html) |
 | Motion X, Y, Z Acceleration | [firmware](https://github.com/webmcu-ai/on-device-motion/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-motion) | | |
-| Motion Anomaly | [firmware](https://github.com/webmcu-ai/on-device-motion-anomaly/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-motion-anomaly) | | |
+| Motion Anomaly | [firmware](https://github.com/webmcu-ai/on-device-motion-anomaly/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-motion-anomaly) | [index.html](https://github.com/webmcu-ai/on-device-motion-anomaly/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/on-device-motion-anomaly/index.html) |
 | Vision Sound Dual Core | [firmware](https://github.com/webmcu-ai/on-device-vision-sound/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-vision-sound) | n/a | n/a |
 
 

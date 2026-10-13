@@ -51,7 +51,7 @@ Soon with supporting webpages for sd card data transfer
 | Sound / Wake Word(s) Detection | [firmware](https://github.com/webmcu-ai/on-device-sound/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-sound) | [index.html](https://github.com/webmcu-ai/on-device-sound/blob/main/index.html)| [live demo](https://webmcu-ai.github.io/on-device-sound/index.html) |
 | Motion X, Y, Z Acceleration | [firmware](https://github.com/webmcu-ai/on-device-motion/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-motion) | | |
 | Motion Anomaly | [firmware](https://github.com/webmcu-ai/on-device-motion-anomaly/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-motion-anomaly) | [index.html](https://github.com/webmcu-ai/on-device-motion-anomaly/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/on-device-motion-anomaly/index.html) |
-| Vision Sound Dual Core | [firmware](https://github.com/webmcu-ai/on-device-vision-sound/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-vision-sound) | n/a | n/a |
+
 
 
 
@@ -65,7 +65,7 @@ Latest bluetooth BLE work with the XIAO esp32s3 and the nano33BleSense and your 
 |:---|:---|:---|:---|:---|:---|
 |BLE Sensor Fusion XIAO and Nano33BleSense| [firmware-XIAO-ML-Kit](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/esp32-v15.ino) | [firmware-nano33bleSense](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/nano33-v15.ino)  | [github](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33) | [index.html](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/index.html) | [WebBLE Live Demo](https://webmcu-ai.github.io/on-device-ble-sensor-fusion-nano33/index.html) | 
 
-
+---
 
 ## Proof of on-device LoRa
 Latest LoRa work with the XIAO esp32s3 sense with camera, Mic, SD Card and the wio-sx1262 LoRa Module 
@@ -76,6 +76,18 @@ Latest LoRa work with the XIAO esp32s3 sense with camera, Mic, SD Card and the w
 
 
 ---
+
+
+## Proof of on-device Dual Core ML 
+Latest LoRa work with the XIAO esp32s3 sense with camera, Mic, SD Card and the wio-sx1262 LoRa Module 
+
+| ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
+|:---|:---|:---|:---|:---|
+| Vision & Sound on Dual Core Ddevice| [firmware](https://github.com/webmcu-ai/on-device-vision-sound/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-vision-sound) | [index.html](https://github.com/webmcu-ai/on-device-vision-sound/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/on-device-vision-sound/index.html) |
+
+
+---
+
 
 
 ## Proof of Spiking Neural Networks SNN

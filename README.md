@@ -72,7 +72,7 @@ Latest LoRa work with the XIAO esp32s3 sense with camera, Mic, SD Card and the w
 
 | ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
 |:---|:---|:---|:---|:---|
-| SNN and ANN Motion | [firmware.ino]() | [github]() | [index.html]() | [motion SNN Live Demo]() |
+| Vision Classification with LoRa Transmission | [firmware.ino](https://github.com/webmcu-ai/vision-classification-lora/blob/main/firmware.ino) | [github](https://github.com/webmcu-ai/vision-classification-lora) | [index.html](https://github.com/webmcu-ai/vision-classification-lora/blob/main/index.html) | [live web Demo](https://webmcu-ai.github.io/vision-classification-lora/index.html) |
 
 
 ---

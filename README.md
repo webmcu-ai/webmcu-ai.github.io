@@ -66,10 +66,19 @@ Latest bluetooth BLE work with the XIAO esp32s3 and the nano33BleSense and your 
 |BLE Sensor Fusion XIAO and Nano33BleSense| [firmware-XIAO-ML-Kit](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/esp32-v15.ino) | [firmware-nano33bleSense](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/nano33-v15.ino)  | [github](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33) | [index.html](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/index.html) | [WebBLE Live Demo](https://webmcu-ai.github.io/on-device-ble-sensor-fusion-nano33/index.html) | 
 
 
+
+## Proof of on-device LoRa
+Latest LoRa work with the XIAO esp32s3 sense with camera, Mic, SD Card and the wio-sx1262 LoRa Module 
+
+| ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
+|:---|:---|:---|:---|:---|
+| SNN and ANN Motion | [firmware.ino]() | [github]() | [index.html]() | [motion SNN Live Demo]() |
+
+
 ---
 
 
-## Spiking Neural Networks SNN
+## Proof of Spiking Neural Networks SNN
 
 | ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
 |:---|:---|:---|:---|:---|

@@ -6,6 +6,8 @@ Hi, I'm [Jeremy Ellis](https://github.com/hpssjellis) — a high school Computin
 
 This organization collects my open-source work at the intersection of **TinyML** (machine learning on microcontrollers) and **WebAI** (machine learning in the browser via TensorFlow.js and the WebSerial API). The hardware is cheap enough for a classroom. The code is single-file and dependency-free. The goal is that a student, or a researcher in a global south university with unreliable internet, can train and deploy a working vision classifier in under ten minutes without sending any data to the cloud.
 
+Nothing here is intended to be a polished, final, error-free product. Instead, these projects serve as proofs of ability and accessible learning blueprints where students can read, experiment with, and even have an AI explain every single line of both the webpage interface and the tinyML firmware.
+
 ---
 
 ## 📄 Papers (webmcu-ai Series)
@@ -78,12 +80,34 @@ Latest LoRa work with the XIAO esp32s3 sense with camera, Mic, SD Card and the w
 ---
 
 
+## Proof of on-device Sensor Fusion with the Arduino Nano33BleSense 
+$39.70 USD Nano 33 BLE Sense REV1 or REV 2 at the Arduino Store https://store-usa.arduino.cc/products/nano-33-ble-sense-rev2-with-headers
+
+| ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
+|:---|:---|:---|:---|:---|
+| Nano33ble-sense-web-ble-and Serial sensor-fusion| [firmware](https://github.com/webmcu-ai/nano33ble-sense-web-ble-sensor-fusion/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/nano33ble-sense-web-ble-sensor-fusion) | [index.html](https://github.com/webmcu-ai/nano33ble-sense-web-ble-sensor-fusion/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/nano33ble-sense-web-ble-sensor-fusion/index.html) |
+
+---
+
+
+
+## Proof of on-device Vision Classification Federated Learning
+Back to using the XIAO ML Kit, full multi location Federated Vision Learning.
+Note: This has not been fully tested since I just have so many things on the go at the moment. 
+
+| ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
+|:---|:---|:---|:---|:---|
+| Federated Vision Learning | [firmware](https://github.com/webmcu-ai/vision-federated-webble/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/vision-federated-webble) | [index.html](https://github.com/webmcu-ai/vision-federated-webble/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/vision-federated-webble/index.html) |
+
+---
+
+
 ## Proof of on-device Dual Core ML 
 Latest LoRa work with the XIAO esp32s3 sense with camera, Mic, SD Card and the wio-sx1262 LoRa Module 
 
 | ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
 |:---|:---|:---|:---|:---|
-| Vision & Sound on Dual Core Ddevice| [firmware](https://github.com/webmcu-ai/on-device-vision-sound/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-vision-sound) | [index.html](https://github.com/webmcu-ai/on-device-vision-sound/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/on-device-vision-sound/index.html) |
+| Vision & Sound on Dual Core Device| [firmware](https://github.com/webmcu-ai/on-device-vision-sound/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-vision-sound) | [index.html](https://github.com/webmcu-ai/on-device-vision-sound/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/on-device-vision-sound/index.html) |
 
 
 ---

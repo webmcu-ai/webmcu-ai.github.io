@@ -126,6 +126,52 @@ Latest LoRa work with the XIAO esp32s3 sense with camera, Mic, SD Card and the w
 ---
 
 
+# Still being worked on
+
+
+
+## Proof of web Trained Device running int8
+The biggest complaint about all these on-device projects is that they are int32 and not int8. The reason was
+to stick to traditional machine learning and not do the more complex quantization. This project 
+is testing web training and int8 conversion then getting it working on the device. 
+
+| ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
+|:---|:---|:---|:---|:---|
+| Vision & Sound on Dual Core Device| [firmware](https://github.com/webmcu-ai/web-train-int8/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/web-train-int8) | [index.html](https://github.com/webmcu-ai/web-train-int8/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/web-train-int8/index.html) |
+
+---
+
+## Proof of 
+The 
+
+| ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
+|:---|:---|:---|:---|:---|
+| Vision & Sound on Dual Core Device| [firmware]() |[github]() | [index.html]() | [live demo]() |
+
+---
+
+
+
+
+## Proof of 
+The 
+
+| ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
+|:---|:---|:---|:---|:---|
+| Vision & Sound on Dual Core Device| [firmware]() |[github]() | [index.html]() | [live demo]() |
+
+---
+
+
+
+## Proof of 
+The 
+
+| ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
+|:---|:---|:---|:---|:---|
+| Vision & Sound on Dual Core Device| [firmware]() |[github]() | [index.html]() | [live demo]() |
+
+---
 ## BioComputing Demo's  
 
 [https://github.com/hpssjellis/neuro-ml](https://github.com/hpssjellis/neuro-ml)

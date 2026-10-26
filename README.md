@@ -131,9 +131,9 @@ Latest LoRa work with the XIAO esp32s3 sense with camera, Mic, SD Card and the w
 
 
 ## Proof of web Trained Device running int8
-The biggest complaint about all these on-device projects is that they are int32 and not int8. The reason was
+The biggest complaint about all these on-device projects is that they are float32 and not int8. The reason was
 to stick to traditional machine learning and not do the more complex quantization. This project 
-is testing web training and int8 conversion then getting it working on the device. 
+is testing web float32 training and int8 conversion then getting it working on the device. Looking into having it train in float32 on the device and converting it to int8 on the device. 
 
 | ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
 |:---|:---|:---|:---|:---|

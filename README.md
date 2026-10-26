@@ -145,7 +145,7 @@ is testing web training and int8 conversion then getting it working on the devic
 Similar to my Gemma4 code https://webmcu-ai.github.io/local-gemma4-pwa/index.html  
 and the ollama webpage supporting code at https://webmcu-ai.github.io/ollama-gemma4-12b-pwa/index.html
 
-| ML | on-device github | index.html | Web Training Assist Demo |
+| ML |  github | index.html | Web Training Assist Demo |
 |:---|:---|:---|:---|
 | Local Private Agentic Agent | [github](https://github.com/webmcu-ai/local-agentic-web) | [index.html](https://github.com/webmcu-ai/local-agentic-web/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/local-agentic-web/index.html) |
 
@@ -157,9 +157,9 @@ First attempt at web WiFi so far a bit irritating that we need a local websocket
 
 Basically once you connect using WiFi to the device or a local network the server serves up the webpage and then the webpage connects to the device over WiFi. Lots of potential, not working very smooth yet.
 
-| ML | on-device github | index.html | Node version  | Python version not tested |
+| ML | on-device Firmware | Github | Node version  | Python version (not tested) |
 |:---|:---|:---|:---|:---|
-| Island CNN| [firmware](https://github.com/webmcu-ai/on-device-full-iot/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-full-iot) | [server-node.js](https://github.com/webmcu-ai/on-device-full-iot/blob/main/server-node.js) | [server-python.py](https://github.com/webmcu-ai/on-device-full-iot/blob/main/server-python.py) |
+| Island CNN Interpretability | [firmware](https://github.com/webmcu-ai/on-device-full-iot/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-full-iot) | [server-node.js](https://github.com/webmcu-ai/on-device-full-iot/blob/main/server-node.js) | [server-python.py](https://github.com/webmcu-ai/on-device-full-iot/blob/main/server-python.py) |
 
 ---
 
@@ -172,7 +172,7 @@ Unlike most of my pages that I fully undersstand this one is a bit above my IQ. 
 
 | ML | on-device firmware |  index.html | Web Training Assist Demo |
 |:---|:---|:---|:---|
-| Island CNN  | [github](https://github.com/webmcu-ai/island-cnn) | [index.html](https://github.com/webmcu-ai/island-cnn/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/island-cnn/index.html) |
+| Island CNN  | Not yet on-device  | [github](https://github.com/webmcu-ai/island-cnn) | [index.html](https://github.com/webmcu-ai/island-cnn/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/island-cnn/index.html) |
 
 ---
 

@@ -126,7 +126,7 @@ Latest LoRa work with the XIAO esp32s3 sense with camera, Mic, SD Card and the w
 ---
 
 
-# Still being worked on
+# Still being worked on. Works but not near perfect.
 
 
 
@@ -137,49 +137,55 @@ is testing web training and int8 conversion then getting it working on the devic
 
 | ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
 |:---|:---|:---|:---|:---|
-| Vision & Sound on Dual Core Device| [firmware](https://github.com/webmcu-ai/web-train-int8/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/web-train-int8) | [index.html](https://github.com/webmcu-ai/web-train-int8/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/web-train-int8/index.html) |
+| web to int8 Vision Model| [firmware](https://github.com/webmcu-ai/web-train-int8/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/web-train-int8) | [index.html](https://github.com/webmcu-ai/web-train-int8/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/web-train-int8/index.html) |
 
 ---
 
-## Proof of 
-The 
+## Proof of Local Private WebAI Agentic Agent
+Similar to my Gemma4 code https://webmcu-ai.github.io/local-gemma4-pwa/index.html  
+and the ollama webpage supporting code at https://webmcu-ai.github.io/ollama-gemma4-12b-pwa/index.html
 
-| ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
+| ML | on-device github | index.html | Web Training Assist Demo |
+|:---|:---|:---|:---|
+| Local Private Agentic Agent | [github](https://github.com/webmcu-ai/local-agentic-web) | [index.html](https://github.com/webmcu-ai/local-agentic-web/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/local-agentic-web/index.html) |
+
+---
+
+
+## Proof of on-device full IoT (WebSerial, WebWiFi, WebBLE, partial LoRa)
+First attempt at web WiFi so far a bit irritating that we need a local websocket using python or Node. I am debating a render.com cloud version but that destroys the local private tone of most of what we are working with here. This is not yet very smooth. Note the local server generates the webpage that communicates with the device.
+
+Basically once you connect using WiFi to the device or a local network the server serves up the webpage and then the webpage connects to the device over WiFi. Lots of potential, not working very smooth yet.
+
+| ML | on-device github | index.html | Node version  | Python version not tested |
 |:---|:---|:---|:---|:---|
-| Vision & Sound on Dual Core Device| [firmware]() |[github]() | [index.html]() | [live demo]() |
+| Island CNN| [firmware](https://github.com/webmcu-ai/on-device-full-iot/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-full-iot) | [server-node.js](https://github.com/webmcu-ai/on-device-full-iot/blob/main/server-node.js) | [server-python.py](https://github.com/webmcu-ai/on-device-full-iot/blob/main/server-python.py) |
+
+---
+
+
+## Proof of Island CNN
+Early 1990 I was making 3 layer 8 nodes per layer Neural Networks using Quick Pascal to try to get a human understanding of how
+they work, now called Interpretability and is now understood to be nearly impossible and that Machine Learning is basically a black box. (I probably should not have spent a decade manually adjusting weights, I also should have looked up Geoffrey Hinton, another Canadian, as I knew nothing about back propagation while he was working on it. My Neural Networks always oscillated between classes). <br><br>
+This site is basically a Claude improved version of what I was trying to do, with the added interesting concept that if a human can understand a small CNN to potentially improve it or reduce the number of connections, perhaps a machine can do the same for a larger model. <br><br>
+Unlike most of my pages that I fully undersstand this one is a bit above my IQ. I would love if a few researchers had a look at what it is trying to do and give me some feedback or DM me on [linkedIn jeremy-ellis-4237a9bb](https://www.linkedin.com/in/jeremy-ellis-4237a9bb)
+
+| ML | on-device firmware |  index.html | Web Training Assist Demo |
+|:---|:---|:---|:---|
+| Island CNN  | [github](https://github.com/webmcu-ai/island-cnn) | [index.html](https://github.com/webmcu-ai/island-cnn/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/island-cnn/index.html) |
 
 ---
 
 
 
-
-## Proof of 
-The 
-
-| ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
-|:---|:---|:---|:---|:---|
-| Vision & Sound on Dual Core Device| [firmware]() |[github]() | [index.html]() | [live demo]() |
-
----
-
-
-
-## Proof of 
-The 
-
-| ML | on-device firmware | on-device github | index.html | Web Training Assist Demo |
-|:---|:---|:---|:---|:---|
-| Vision & Sound on Dual Core Device| [firmware]() |[github]() | [index.html]() | [live demo]() |
-
----
-## BioComputing Demo's  
+# BioComputing Demo's  
 
 [https://github.com/hpssjellis/neuro-ml](https://github.com/hpssjellis/neuro-ml)
 
 ---
 
 
-## Resources
+# Resources
 
 
 

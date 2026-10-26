@@ -171,7 +171,7 @@ This site is basically a Claude improved version of what I was trying to do, wit
 Unlike most of my pages that I fully undersstand this one is a bit above my IQ. I would love if a few researchers had a look at what it is trying to do and give me some feedback or DM me on [linkedIn jeremy-ellis-4237a9bb](https://www.linkedin.com/in/jeremy-ellis-4237a9bb)
 
 | ML | on-device firmware | Github | index.html | Web Training Assist Demo |
-|:---|:---|:---|:---|
+|:---|:---|:---|:---|:---|
 | Island CNN  | Not yet on-device  | [github](https://github.com/webmcu-ai/island-cnn) | [index.html](https://github.com/webmcu-ai/island-cnn/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/island-cnn/index.html) |
 
 ---

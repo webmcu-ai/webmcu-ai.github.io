@@ -170,7 +170,7 @@ they work, now called Interpretability and is now understood to be nearly imposs
 This site is basically a Claude improved version of what I was trying to do, with the added interesting concept that if a human can understand a small CNN to potentially improve it or reduce the number of connections, perhaps a machine can do the same for a larger model. <br><br>
 Unlike most of my pages that I fully undersstand this one is a bit above my IQ. I would love if a few researchers had a look at what it is trying to do and give me some feedback or DM me on [linkedIn jeremy-ellis-4237a9bb](https://www.linkedin.com/in/jeremy-ellis-4237a9bb)
 
-| ML | on-device firmware |  index.html | Web Training Assist Demo |
+| ML | on-device firmware | Github | index.html | Web Training Assist Demo |
 |:---|:---|:---|:---|
 | Island CNN  | Not yet on-device  | [github](https://github.com/webmcu-ai/island-cnn) | [index.html](https://github.com/webmcu-ai/island-cnn/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/island-cnn/index.html) |
 

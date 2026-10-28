@@ -141,15 +141,6 @@ is testing web float32 training and int8 conversion then getting it working on t
 
 ---
 
-## Proof of Local Private WebAI Agentic Agent
-Similar to my Gemma4 code https://webmcu-ai.github.io/local-gemma4-pwa/index.html  
-and the ollama webpage supporting code at https://webmcu-ai.github.io/ollama-gemma4-12b-pwa/index.html
-
-| ML |  github | index.html | Web Training Assist Demo |
-|:---|:---|:---|:---|
-| Local Private Agentic Agent | [github](https://github.com/webmcu-ai/local-agentic-web) | [index.html](https://github.com/webmcu-ai/local-agentic-web/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/local-agentic-web/index.html) |
-
----
 
 
 ## Proof of on-device full IoT (WebSerial, WebWiFi, WebBLE, partial LoRa)
@@ -183,6 +174,16 @@ Unlike most of my pages that I fully undersstand this one is a bit above my IQ. 
 
 # Resources
 
+
+## Local Private WebAI Agentic Agent
+Similar to my Gemma4 code https://webmcu-ai.github.io/local-gemma4-pwa/index.html  
+and the ollama webpage supporting code at https://webmcu-ai.github.io/ollama-gemma4-12b-pwa/index.html
+
+| ML |  github | index.html | Web Training Assist Demo |
+|:---|:---|:---|:---|
+| Local Private Agentic Agent | [github](https://github.com/webmcu-ai/local-agentic-web) | [index.html](https://github.com/webmcu-ai/local-agentic-web/blob/main/index.html) | [live demo](https://webmcu-ai.github.io/local-agentic-web/index.html) |
+
+---
 
 
 For offline LLM using Gemma4:E2B PWA, first time 2 GB install, [https://webmcu-ai.github.io/local-gemma4-pwa/index.html](https://webmcu-ai.github.io/local-gemma4-pwa/index.html)

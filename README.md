@@ -126,11 +126,11 @@ Latest LoRa work with the XIAO esp32s3 sense with camera, Mic, SD Card and the w
 ---
 
 
-# Still being worked on. Works but not near perfect.
 
 
 
-## Proof of web Trained Device running int8
+
+## Proof of web Trained Device running int8 Quantization From Float32
 The biggest complaint about all these on-device projects is that they are float32 and not int8. The reason was
 to stick to traditional machine learning and not do the more complex quantization. This project 
 is testing web float32 training and int8 conversion then getting it working on the device. Looking into having it train in float32 on the device and converting it to int8 on the device. 
@@ -155,11 +155,11 @@ and the ollama webpage supporting code at https://webmcu-ai.github.io/ollama-gem
 ## Proof of on-device full IoT (WebSerial, WebWiFi, WebBLE, partial LoRa)
 First attempt at web WiFi so far a bit irritating that we need a local websocket using python or Node. I am debating a render.com cloud version but that destroys the local private tone of most of what we are working with here. This is not yet very smooth. Note the local server generates the webpage that communicates with the device.
 
-Basically once you connect using WiFi to the device or a local network the server serves up the webpage and then the webpage connects to the device over WiFi. Lots of potential, not working very smooth yet.
+Note: WebWifi needs the webpage downloaded or the node or python webserver.
 
-| ML | on-device Firmware | Github | Node version  | Python version (not tested) |
-|:---|:---|:---|:---|:---|
-| Island CNN Interpretability | [firmware](https://github.com/webmcu-ai/on-device-full-iot/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-full-iot) | [server-node.js](https://github.com/webmcu-ai/on-device-full-iot/blob/main/server-node.js) | [server-python.py](https://github.com/webmcu-ai/on-device-full-iot/blob/main/server-python.py) |
+| ML | on-device Firmware | Github | Node version  | Python version (not tested) | Live Demo (Works for WebSerial, WebBLE, WebLoRa) |
+|:---|:---|:---|:---|:---|:---|
+| Island CNN Interpretability | [firmware](https://github.com/webmcu-ai/on-device-full-iot/blob/main/firmware.ino) |[github](https://github.com/webmcu-ai/on-device-full-iot) | [server-node.js](https://github.com/webmcu-ai/on-device-full-iot/blob/main/server-node.js) | [server-python.py](https://github.com/webmcu-ai/on-device-full-iot/blob/main/server-python.py) | [Live Demo (download for webWiFi)](https://webmcu-ai.github.io/on-device-full-iot/index.html)
 
 ---
 
@@ -178,11 +178,7 @@ Unlike most of my pages that I fully undersstand this one is a bit above my IQ. 
 
 
 
-# BioComputing Demo's  
 
-[https://github.com/hpssjellis/neuro-ml](https://github.com/hpssjellis/neuro-ml)
-
----
 
 
 # Resources
